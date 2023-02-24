@@ -8,7 +8,7 @@ let check = false;
 // Ciclo per iterare l'array di email
 for (let i = 0; i < arrayEmail.length; i++) {
     // Controllo se l'email inserita dall'utente è presente 
-    if (emailUtente === arrayEmail[i]){
+    if (emailUtente.toLowerCase === arrayEmail[i].toLowerCase){
         check = true;
     }
 }
